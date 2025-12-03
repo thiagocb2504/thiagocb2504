@@ -5,13 +5,16 @@ on:
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Generate Snake
         uses: Platane/snk@v3
@@ -19,9 +22,13 @@ jobs:
           github_user_name: thiagocb2504
           outputs: dist/snake.svg
 
-      - name: Push to output branch
-        uses: EndBug/add-and-commit@v9
-        with:
-          branch: output
-          message: "Update Snake Animation"
-          add: "dist/snake.svg"
+      - name: Upload to output branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch
+          git switch output || git switch -c output
+          cp dist/snake.svg snake.svg
+          git add snake.svg
+          git commit -m "update snake" || echo "No changes"
+          git push origin output
