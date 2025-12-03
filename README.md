@@ -10,15 +10,6 @@
 
 ###
 
-<img 
-  src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=thiagocb2504&layout=compact&langs_count=6&theme=dracula&hide_border=false" 
-  height="180" 
-  alt="Linguagens mais usadas"
-/>
-
-
-###
-
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" height="30" alt="java logo"  />
   <img width="12" />
