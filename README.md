@@ -2,7 +2,7 @@
 
 ###
 
-<h3 align="center">Eu chamo Thiago da Costa Brito, tenho 20 anos, sou estudante de Análise e Desenvolvimento de Sistemas na Universidade Católica de Brasília.</h3>
+<h3 align="center">Eu me chamo Thiago da Costa Brito, tenho 21 anos, sou estudante de Análise e Desenvolvimento de Sistemas na Universidade Católica de Brasília.</h3>
 
 ###
 
