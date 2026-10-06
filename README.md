@@ -25,7 +25,7 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
-  <img src = " https://devicon-website.vercel.app/api/angularjs/original.svg " height="30" alt="angular logo"/>
+  <img src = "https://devicon-website.vercel.app/api/angularjs/original.svg" height="30" alt="angular logo"/>
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="30" alt="typescript logo" />
   <img width="12" />
